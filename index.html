@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NFTHOUSE | Cryptocurrency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script>
+      tailwind.config = {
+        theme: { extend: { colors: { clifford: "#da373d" } } },
+      };
+    </script>
+    <script
+      src="https://kit.fontawesome.com/d77dfe884e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="bg-black">
+    <nav class="bg-slate-900 py-[10px] z-20">
+      <div
+        class="relative sm:ml-3 justify-between sm:justify-evenly flex items-center text-white"
+      >
+        <div class="flex items-center">
+          <img
+            src="./src/card.png"
+            alt="logo"
+            style="width: 51px; height: 48px"
+          />
+          <div>NFTHOUSE</div>
+        </div>
+        <div
+          class="toggle sm:transition-none sm:static absolute active w-full sm:w-1/2 sm:top-1/2 sm:bottom-1/2 sm:h-0 max-h-max bg-slate-900 flex justify-center items-center -z-10 sm:z-10"
+        >
+          <ul class="text-center sm:flex sm:gap-x-10">
+            <li class="p-1 sm:p-0"><a href="#Auction">Auction</a></li>
+            <li class="p-2 sm:p-0"><a href="#Community">Community</a></li>
+            <li class="p-1 sm:p-0"><a href="#Explore">Explore</a></li>
+          </ul>
+        </div>
+        <div class="flex gap-5 mr-4 text-white justify-center items-center">
+          <div
+            class="bg-blue-600 flex py-[2px] px-[4px] rounded-[8px] md:py-[18px] md:px-[32px] md:rounded-[24px] sm:py-[9px] sm:px-[16px] sm:rounded-[12px]"
+          >
+            <img
+              src="./src/iconWallet.svg"
+              alt="wallet"
+              style="width: 24px; height: 24px"
+              class="m-auto"
+            /><button class="sm:ml-[14px] text-lg">My Wallet</button>
+          </div>
+          <i
+            class="fa-solid fa-bars text-3xl cursor-pointer sm:hidden"
+            style="color: #fff"
+          ></i>
+        </div>
+      </div>
+    </nav>
+    <div class="swiper mySwiper -z-20 bg-black">
+      <div class="swiper-wrapper relative">
+        <div class="text flex-col">
+          <div class="lg:w-[665px] lg:h-[242px] w-2/4 sm:max-w-max">
+            <p
+              class="lg:text-[100px] text-[24px] text-background font-extrabold text-center sm:text-[48px] md:text-[60px]"
+            >
+              Collect Your NFT Here!
+            </p>
+          </div>
+          <button
+            class="lg:w-[360px] lg:h-[56px] py-2 px-3 sm:py-3 sm:px-9 lg:mt-[52px] glasses flex justify-center items-center"
+          >
+            <img src="src/Search.svg" alt="Search" />
+            <div class="text-slate-300 ml-[12px]">Find Your NFT</div>
+          </button>
+        </div>
+        <div class="swiper-slide">
+          <img class="sm:px-[51px] px-4" src="src/img2.png" alt="img2" />
+        </div>
+        <div class="swiper-slide">
+          <img class="sm:px-[51px] px-4" src="src/img1.png" alt="img1" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="sm:px-[51px] px-4"
+            src="src/Property 1=img3.png"
+            alt="img3"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="sm:px-[51px] px-4"
+            src="src/Property 1=img4.png"
+            alt="img4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      id="Auction"
+      class="overflow-hidden sm:flex sm:justify-center sm:flex-col sm:items-center lg:flex-row lg:justify-start lg:items-start p-5 lg:p-0 lg:px-[162px] mt-[40px] mb-[60px]"
+    >
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-once="true"
+        class="Auction-1 background-auction max-w-max rounded-[32px] lg:p-[40px] md:p-[32px] sm:p-[18px] p-9 flex flex-col md:w-3/4 sm:w-10/12"
+      >
+        <div class="flex justify-between">
+          <div class="flex">
+            <img src="src/image 1367.svg" alt="fire" class="mr-[12px]" />
+            <div
+              class="text-white lg:text-[32px] md:text-[28px] sm:text-[24px] text-2xl font-semibold"
+            >
+              Item Ending Soon
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <img src="src/Arrow - Left Circle.svg" alt="next-arrow" />
+          </div>
+        </div>
+        <div class="lg:mb-[30px]">
+          <img
+            src="src/Rectangle 11.png"
+            alt=""
+            class="rounded-[12px] sm:mt-[30px] mt-2 lg:w-[473px] lg:h-[360px] sm:w-[680px] sm:h-[280px]"
+          />
+        </div>
+        <div>
+          <div class="font-semibold text-white lg:text-[26px] md:text-[18px]">
+            Hurricane (Common Body)
+          </div>
+          <div class="flex text-white font-normal lg:text-[20px] lg:mt-[12px]">
+            By Spider Tanks
+            <img src="src/image 29.svg" alt="" class="ml-[12px]" />
+          </div>
+        </div>
+        <div class="flex justify-between font-semibold text-white mt-[40px]">
+          <div class="flex flex-col">
+            <div
+              class="text-[20px] text-purple-800 lg:text-[20px] md:text-[24px]"
+            >
+              Current Bid
+            </div>
+            <div class="text-[18px] mt-[12px] lg:text-[32px] md:text-[24px]">
+              0.0079 ETH
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <div class="text-[20px] text-purple-800">Remaining Time</div>
+            <div class="lg:text-[32px] text-right mt-[12px] md:text-[24px]">
+              <section class="countdown-container justify-end flex">
+                <div class="days-container hidden">
+                  <div class="days"></div>
+                </div>
+
+                <div class="hours-container">
+                  <div class="hours"></div>
+                </div>
+
+                <div class="minutes-container">
+                  <div class="minutes"></div>
+                </div>
+
+                <div class="seconds-container">
+                  <div class="seconds"></div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between font-normal text-white lg:mt-[40px]">
+          <button
+            class="py-[8px] px-[18px] lg:py-[20px] lg:px-[58px] sm:py-[18px] sm:px-[32px] bg-purple-800 rounded-[24px] lg:text-[18px] md:text-[24px]"
+          >
+            Place a Bid</button
+          ><button
+            class="py-[8px] px-[18px] lg:py-[20px] lg:px-[58px] sm:py-[18px] sm:px-[32px] glasses-view rounded-[24px] lg:text-[18px] md:text-[24px]"
+          >
+            View Artwork
+          </button>
+        </div>
+      </div>
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-once="true"
+        class="max-w-max lg:mt-[81px] lg:ml-32"
+      >
+        <div
+          class="mb-[12px] sm:mb-[18px] md:mb-[24px] lg:text-[32px] lg:mb-[31px] text-white font-semibold text-4xl"
+        >
+          New Auction
+        </div>
+        <div
+          class="block sm:flex items-center p-[12px] sm:p-[20px] rounded-[12px] glasses-auction2 mb-[8px] sm:mb-[12px]"
+        >
+          <img
+            src="src/Rectangle 12.png"
+            alt=""
+            class="sm:mr-[8px] sm:w-[100px] m-auto w-[200px] h-[200px] sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[100px] lg:h-[100px]"
+          />
+          <div
+            class="text-white text-[23px] sm:text-[18px] md:text-[28px] w-full lg:text-lg"
+          >
+            Somewhere Else: 094 - Palm Trees & Basketball
+            <div class="flex justify-between mt-[8px]">
+              <div
+                class="text-white text-[18px] sm:text-[18px] md:text-[24px] lg:text-base"
+              >
+                0.5 ETH
+              </div>
+              <div
+                class="text-purple-700 text-[18px] sm:text-[18px] md:text-[24px] lg:text-base"
+              >
+                <section class="countdown-container justify-end flex">
+                  <div class="days-container hidden">
+                    <div class="days2"></div>
+                  </div>
+
+                  <div class="hours-container">
+                    <div class="hours2"></div>
+                  </div>
+
+                  <div class="minutes-container">
+                    <div class="minutes2"></div>
+                  </div>
+
+                  <div class="seconds-container">
+                    <div class="seconds2"></div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="block sm:flex items-center p-[12px] rounded-[12px] glasses-auction2 mb-[8px]"
+        >
+          <img
+            src="src/Rectangle 12 (1).png"
+            alt=""
+            class="sm:mr-[8px] sm:w-[100px] m-auto w-[200px] h-[200px] sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[100px] lg:h-[100px]"
+          />
+          <div
+            class="text-white text-[23px] w-full sm:text-[18px] md:text-[28px] lg:text-lg"
+          >
+            DRIP #515
+            <div class="flex justify-between mt-[8px]">
+              <div
+                class="text-white text-[18px] sm:text-[18px] md:text-[24px] lg:text-base"
+              >
+                0.7 ETH
+              </div>
+              <div
+                class="text-purple-700 text-[18px] sm:text-[18px] md:text-[24px] lg:text-base"
+              >
+                <section class="countdown-container justify-end flex">
+                  <div class="days-container hidden">
+                    <div class="days3"></div>
+                  </div>
+
+                  <div class="hours-container">
+                    <div class="hours3"></div>
+                  </div>
+
+                  <div class="minutes-container">
+                    <div class="minutes3"></div>
+                  </div>
+
+                  <div class="seconds-container">
+                    <div class="seconds3"></div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="block sm:flex items-center p-[12px] rounded-[12px] glasses-auction2 mb-[8px]"
+        >
+          <img
+            src="src/Rectangle 12 (2).png"
+            alt=""
+            class="sm:mr-[8px] sm:w-[100px] m-auto w-[200px] h-[200px] sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[100px] lg:h-[100px]"
+          />
+          <div
+            class="text-white text-[23px] sm:text-[18px] w-full md:text-[28px] lg:text-lg"
+          >
+            Bikes of Burden #28. Ribs.
+            <div class="flex justify-between mt-[8px]">
+              <div
+                class="text-white text-[18px] sm:text-[18px] md:text-[24px] lg:text-base"
+              >
+                2.5 ETH
+              </div>
+              <div
+                class="text-purple-700 text-[18px] sm:text-[18px] md:text-[24px] lg:text-base"
+              >
+                <section class="countdown-container justify-end flex">
+                  <div class="days-container hidden">
+                    <div class="days4"></div>
+                  </div>
+
+                  <div class="hours-container">
+                    <div class="hours4"></div>
+                  </div>
+
+                  <div class="minutes-container">
+                    <div class="minutes4"></div>
+                  </div>
+
+                  <div class="seconds-container">
+                    <div class="seconds4"></div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="block sm:flex w- items-center p-[12px] rounded-[12px] glasses-auction2 mb-[8px]"
+        >
+          <img
+            src="src/Rectangle 12 (3).png"
+            alt=""
+            class="sm:mr-[8px] sm:w-[100px] m-auto w-[200px] h-[200px] sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[100px] lg:h-[100px]"
+          />
+          <div
+            class="text-white text-[23px] sm:text-[18px] w-full md:text-[28px] lg:text-lg"
+          >
+            Rizzo Collection #36
+            <div class="flex justify-between mt-[8px] w-full">
+              <div
+                class="text-white text-[18px] sm:text-[18px] md:text-[24px] lg:text-base"
+              >
+                1.2 ETH
+              </div>
+              <div
+                class="text-purple-700 text-[18px] sm:text-[18px] md:text-[24px] lg:text-base"
+              >
+                <section class="countdown-container justify-end flex">
+                  <div class="days-container hidden">
+                    <div class="days5"></div>
+                  </div>
+
+                  <div class="hours-container">
+                    <div class="hours5"></div>
+                  </div>
+
+                  <div class="minutes-container">
+                    <div class="minutes5"></div>
+                  </div>
+
+                  <div class="seconds-container">
+                    <div class="seconds5"></div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-end text-white">
+          view all auctions
+          <img
+            src="src/Arrow - Left Circle.svg"
+            alt="arrow"
+            style="width: 32px; height: 32px"
+            class="lg:ml-5"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      data-aos="fade-down"
+      data-aos-duration="1100"
+      data-aos-delay="300"
+      data-aos-once="true"
+      class="mb-[100px] lg:mx-[172px] hidden sm:block"
+    >
+      <div
+        class="flex w-full justify-center items-center text-white mb-[40px] uppercase text-[32px] font-semibold"
+      >
+        Top Seller
+      </div>
+      <div class="flex justify-center items-center">
+        <div class="flex-col flex md:mr-10 m-1 text-center">
+          <img
+            src="src/Ellipse 1.png"
+            alt=""
+            class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
+          />
+          <div class="text-white mt-[16px]">Pokko</div>
+        </div>
+        <div class="flex-col flex md:mr-10 text-center">
+          <img
+            src="src/Ellipse 1 (6).png"
+            alt=""
+            class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
+          />
+          <div class="text-white mt-[16px]">Wetur</div>
+        </div>
+        <div class="flex-col flex md:mr-10 text-center">
+          <img
+            src="src/Ellipse 1 (2).png"
+            class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
+            alt=""
+          />
+          <div class="text-white mt-[16px]">Abdliie</div>
+        </div>
+        <div class="flex-col flex md:mr-10 text-center">
+          <img
+            src="src/Ellipse 1 (12).png"
+            alt=""
+            class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
+          />
+          <div class="text-white mt-[16px]">Berhans</div>
+        </div>
+        <div class="flex-col flex md:mr-10 text-center">
+          <img
+            src="src/Ellipse 1 (11).png"
+            alt=""
+            class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
+          />
+          <div class="text-white mt-[16px]">Hags</div>
+        </div>
+        <div class="flex-col flex md:mr-10 text-center">
+          <img
+            src="src/Ellipse 1 (10).png"
+            alt=""
+            class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
+          />
+          <div class="text-white mt-[16px]">Fukiep</div>
+        </div>
+        <div class="flex-col flex md:mr-10 text-center">
+          <img
+            src="src/Ellipse 1 (1).png"
+            alt=""
+            class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
+          />
+          <div class="text-white mt-[16px]">Jhiehe</div>
+        </div>
+        <div class="flex-col flex md:mr-10 text-center">
+          <img
+            src="src/Ellipse 1 (8).png"
+            class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
+            alt=""
+          />
+          <div class="text-white mt-[16px]">RizKhen</div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1200"
+      data-aos-delay="350"
+      data-aos-once="true"
+      class="mb-[100px] mx-2 lg:mx-[172px]"
+    >
+      <div
+        class="flex w-full justify-center items-center text-white mb-[40px] uppercase text-[28px] font-semibold"
+      >
+        Categories
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 gap-1">
+        <div class="background-auction rounded-[32px]">
+          <img
+            src="src/Rectangle 20 (4).png"
+            alt="categoris"
+            class="lg:w-[288px] lg:h-[226px] p-[20px]"
+          />
+          <div class="text-center text-white lg:text-[20px]">Art</div>
+        </div>
+        <div class="background-auction rounded-[32px]">
+          <img
+            src="src/Rectangle 20 (5).png"
+            alt="categoris"
+            class="lg:w-[288px] lg:h-[226px] p-[20px]"
+          />
+          <div class="text-center text-white lg:text-[20px]">Collection</div>
+        </div>
+        <div class="background-auction rounded-[32px]">
+          <img
+            src="src/Rectangle 20 (6).png"
+            alt="categoris"
+            class="lg:w-[288px] lg:h-[226px] p-[20px]"
+          />
+          <div class="text-center text-white lg:text-[20px]">Domain Name</div>
+        </div>
+        <div class="background-auction rounded-[32px]">
+          <img
+            src="src/Rectangle 20 (7).png"
+            alt="categoris"
+            class="lg:w-[288px] lg:h-[226px] p-[20px]"
+          />
+          <div class="text-center text-white lg:text-[20px]">Music</div>
+        </div>
+        <div class="background-auction rounded-[32px]">
+          <img
+            src="src/Rectangle 20.png"
+            alt="categoris"
+            class="lg:w-[288px] lg:h-[226px] p-[20px]"
+          />
+          <div class="text-center text-white lg:text-[20px]">Photography</div>
+        </div>
+        <div class="background-auction rounded-[32px]">
+          <img
+            src="src/Rectangle 21.png"
+            alt="categoris"
+            class="lg:w-[288px] lg:h-[226px] p-[20px]"
+          />
+          <div class="text-center text-white lg:text-[20px]">Sport</div>
+        </div>
+        <div class="background-auction rounded-[32px]">
+          <img
+            src="src/Rectangle 20 (2).png"
+            alt="categoris"
+            class="lg:w-[288px] lg:h-[226px] p-[20px]"
+          />
+          <div class="text-center text-white lg:text-[20px]">Trading Card</div>
+        </div>
+        <div class="background-auction rounded-[32px]">
+          <img
+            src="src/Rectangle 20 (3).png"
+            alt="categoris"
+            class="lg:w-[288px] lg:h-[226px] p-[20px]"
+          />
+          <div class="text-center text-white lg:text-[20px]">Utility</div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full">
+      <div
+        class="md:px-[50px] md:py-[60px] background-auction px-3 py-5 block sm:grid sm:grid-cols-3"
+      >
+        <div class="text-white mr-[10px]">
+          <div class="flex items-center">
+            <img
+              src="./src/card.png"
+              alt="logo"
+              style="width: 51px; height: 48px"
+            />
+            <div>NFTHOUSE</div>
+          </div>
+          <div class="mt-[40px] lg:text-[18px]">
+            MahyuNFT is the largest NFTs Marketplace of Etherium (ETH). Buy,
+            sell, and discover exclusive digital items.
+          </div>
+        </div>
+        <div class="text-white mr-[10px]">
+          <div class="flex flex-col">
+            <div class="mb-[20px]">About us</div>
+            <div class="mb-[20px]">Frequently Asked Questions (FAQ)</div>
+            <div class="mb-[20px]">Help Center</div>
+            <div>How to Buy and Sell</div>
+          </div>
+        </div>
+        <div class="text-white mr-[10px] w-full">
+          <div class="flex flex-col">
+            <div>Subscribe MahyuNFT for newsletter right now!</div>
+          </div>
+          <div class="mt-[20px] hidden md:flex w-full">
+            <input
+              class="bg-transparent rounded-[11px] px-2 py-5 border-2 lg:py-[20px] lg:ps-[20px] w-full"
+              placeholder="insert your email here"
+            /><button
+              class="bg-purple-900 px-4 py-3 lg:px-[24px] lg:py-[20px] rounded-[11px] ml-2"
+            >
+              Sent
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="text-white w-full sm:flex bg-purple-400 justify-between py-[20px] px-[50px] block"
+    >
+      <div>© 2023 Mahyu.my.id</div>
+      <div class="flex">
+        <div class="mr-3">Privacy Policy</div>
+        <div>Terms of Service</div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "fade",
+      centeredSlides: !0,
+      autoplay: { delay: 1500, disableOnInteraction: !1 },
+    });
+  </script>
+  <script>
+    const toggle = document.querySelector(".toggle");
+    const bars = document.querySelector(".fa-bars");
+
+    bars.addEventListener("click", function () {
+      toggle.classList.toggle("transition-all");
+      toggle.classList.toggle("active");
+      toggle.classList.toggle("passive");
+    });
+    document.addEventListener("click", function (e) {
+      if (!bars.contains(e.target) && !toggle.contains(e.target)) {
+        // toggle.classList.remove("active");
+        toggle.classList.remove("passive");
+        toggle.classList.add("active");
+      }
+    });
+    const faMoon = document.querySelector(".fa-moon");
+    const faSun = document.querySelector(".fa-sun");
+    document.addEventListener("click", function (e) {
+      if (e.target == faMoon) {
+        faMoon.classList.toggle("hidden");
+        faSun.classList.toggle("hidden");
+      } else if (e.target == faSun) {
+        faMoon.classList.toggle("hidden");
+        faSun.classList.toggle("hidden");
+      }
+    });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</html>
