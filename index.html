@@ -40,20 +40,28 @@
             alt="logo"
             style="width: 51px; height: 48px"
           />
-          <div>NFTHOUSE</div>
+          <div class="font-semibold sm:text-2xl sm:ms-3">NFTHOUSE</div>
         </div>
         <div
           class="toggle sm:transition-none sm:static absolute active w-full sm:w-1/2 sm:top-1/2 sm:bottom-1/2 sm:h-0 max-h-max bg-slate-900 flex justify-center items-center -z-10 sm:z-10"
         >
           <ul class="text-center sm:flex sm:gap-x-10">
-            <li class="p-1 sm:p-0"><a href="#Auction">Auction</a></li>
-            <li class="p-2 sm:p-0"><a href="#Community">Community</a></li>
-            <li class="p-1 sm:p-0"><a href="#Explore">Explore</a></li>
+            <li class="p-1 sm:p-0 hover:underline duration-200">
+              <a href="#Auction">Auction</a>
+            </li>
+            <li class="p-2 sm:p-0 hover:underline duration-200">
+              <a href="#Community">Community</a>
+            </li>
+            <li class="p-1 sm:p-0 hover:underline duration-200">
+              <a href="#Explore">Explore</a>
+            </li>
           </ul>
         </div>
-        <div class="flex gap-5 mr-4 text-white justify-center items-center">
+        <div
+          class="flex gap-2 sm:gap-5 mr-4 text-white justify-center items-center cursor-pointer"
+        >
           <div
-            class="bg-blue-600 flex py-[2px] px-[4px] rounded-[8px] md:py-[18px] md:px-[32px] md:rounded-[24px] sm:py-[9px] sm:px-[16px] sm:rounded-[12px]"
+            class="bg-blue-600 hover:bg-blue-900 flex py-[2px] px-[4px] rounded-[8px] md:py-[18px] md:px-[32px] md:rounded-[24px] sm:py-[9px] sm:px-[16px] sm:rounded-[12px]"
           >
             <img
               src="./src/iconWallet.svg"
@@ -123,7 +131,7 @@
           <div class="flex">
             <img src="src/image 1367.svg" alt="fire" class="mr-[12px]" />
             <div
-              class="text-white lg:text-[32px] md:text-[28px] sm:text-[24px] text-2xl font-semibold"
+              class="text-white lg:text-[32px] md:text-[28px] sm:text-[24px] text-lg font-semibold m-auto"
             >
               Item Ending Soon
             </div>
@@ -151,16 +159,16 @@
         <div class="flex justify-between font-semibold text-white mt-[40px]">
           <div class="flex flex-col">
             <div
-              class="text-[20px] text-purple-800 lg:text-[20px] md:text-[24px]"
+              class="text-[12px] sm:text-[20px] text-purple-800 lg:text-[20px] md:text-[24px]"
             >
               Current Bid
             </div>
-            <div class="text-[18px] mt-[12px] lg:text-[32px] md:text-[24px]">
+            <div class="text-[12px] sm:text-[20px] mt-[12px] lg:text-[32px] md:text-[24px]">
               0.0079 ETH
             </div>
           </div>
-          <div class="flex flex-col">
-            <div class="text-[20px] text-purple-800">Remaining Time</div>
+          <div class="flex flex-col text-[12px] sm:text-[20px]">
+            <div class=" text-purple-800">Remaining Time</div>
             <div class="lg:text-[32px] text-right mt-[12px] md:text-[24px]">
               <section class="countdown-container justify-end flex">
                 <div class="days-container hidden">
@@ -182,9 +190,9 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-between font-normal text-white lg:mt-[40px]">
+        <div class="mt-2 flex justify-between font-normal text-white lg:mt-[40px] gap-1 sm:gap-0 text-[10px] sm:text-[16px]">
           <button
-            class="py-[8px] px-[18px] lg:py-[20px] lg:px-[58px] sm:py-[18px] sm:px-[32px] bg-purple-800 rounded-[24px] lg:text-[18px] md:text-[24px]"
+            class="hover:bg-opacity-80 py-[8px] px-[18px] lg:py-[20px] lg:px-[58px] sm:py-[18px] sm:px-[32px] bg-purple-800 rounded-[24px] lg:text-[18px] md:text-[24px]"
           >
             Place a Bid</button
           ><button
@@ -380,7 +388,7 @@
             src="src/Arrow - Left Circle.svg"
             alt="arrow"
             style="width: 32px; height: 32px"
-            class="lg:ml-5"
+            class="cursor-pointer lg:ml-5"
           />
         </div>
       </div>
@@ -398,7 +406,7 @@
         Top Seller
       </div>
       <div class="flex justify-center items-center">
-        <div class="flex-col flex md:mr-10 m-1 text-center">
+        <div class="flex-col flex md:mr-10 m-1 text-center cursor-pointer">
           <img
             src="src/Ellipse 1.png"
             alt=""
@@ -406,7 +414,7 @@
           />
           <div class="text-white mt-[16px]">Pokko</div>
         </div>
-        <div class="flex-col flex md:mr-10 text-center">
+        <div class="flex-col flex md:mr-10 text-center cursor-pointer">
           <img
             src="src/Ellipse 1 (6).png"
             alt=""
@@ -414,7 +422,7 @@
           />
           <div class="text-white mt-[16px]">Wetur</div>
         </div>
-        <div class="flex-col flex md:mr-10 text-center">
+        <div class="flex-col flex md:mr-10 text-center cursor-pointer">
           <img
             src="src/Ellipse 1 (2).png"
             class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
@@ -422,7 +430,7 @@
           />
           <div class="text-white mt-[16px]">Abdliie</div>
         </div>
-        <div class="flex-col flex md:mr-10 text-center">
+        <div class="flex-col flex md:mr-10 text-center cursor-pointer">
           <img
             src="src/Ellipse 1 (12).png"
             alt=""
@@ -430,7 +438,7 @@
           />
           <div class="text-white mt-[16px]">Berhans</div>
         </div>
-        <div class="flex-col flex md:mr-10 text-center">
+        <div class="flex-col flex md:mr-10 text-center cursor-pointer">
           <img
             src="src/Ellipse 1 (11).png"
             alt=""
@@ -438,7 +446,7 @@
           />
           <div class="text-white mt-[16px]">Hags</div>
         </div>
-        <div class="flex-col flex md:mr-10 text-center">
+        <div class="flex-col flex md:mr-10 text-center cursor-pointer">
           <img
             src="src/Ellipse 1 (10).png"
             alt=""
@@ -446,7 +454,7 @@
           />
           <div class="text-white mt-[16px]">Fukiep</div>
         </div>
-        <div class="flex-col flex md:mr-10 text-center">
+        <div class="flex-col flex md:mr-10 text-center cursor-pointer">
           <img
             src="src/Ellipse 1 (1).png"
             alt=""
@@ -454,7 +462,7 @@
           />
           <div class="text-white mt-[16px]">Jhiehe</div>
         </div>
-        <div class="flex-col flex md:mr-10 text-center">
+        <div class="flex-col flex md:mr-10 text-center cursor-pointer">
           <img
             src="src/Ellipse 1 (8).png"
             class="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"
@@ -554,10 +562,10 @@
               alt="logo"
               style="width: 51px; height: 48px"
             />
-            <div>NFTHOUSE</div>
+            <div class="font-semibold sm:text-2xl sm:ms-3">NFTHOUSE</div>
           </div>
           <div class="mt-[40px] lg:text-[18px]">
-            MahyuNFT is the largest NFTs Marketplace of Etherium (ETH). Buy,
+            NFTHOUSE is the largest NFTs Marketplace of Etherium (ETH). Buy,
             sell, and discover exclusive digital items.
           </div>
         </div>
@@ -571,7 +579,7 @@
         </div>
         <div class="text-white mr-[10px] w-full">
           <div class="flex flex-col">
-            <div>Subscribe MahyuNFT for newsletter right now!</div>
+            <div>Subscribe NFTHOUSE for newsletter right now!</div>
           </div>
           <div class="mt-[20px] hidden md:flex w-full">
             <input
@@ -587,9 +595,9 @@
       </div>
     </div>
     <div
-      class="text-white w-full sm:flex bg-purple-400 justify-between py-[20px] px-[50px] block"
+      class="text-white w-full sm:flex bg-purple-400 justify-between py-[20px] px-3 sm:px-[50px] block"
     >
-      <div>© 2023 Mahyu.my.id</div>
+      <div>© 2023 NFTHOUSE.my.id</div>
       <div class="flex">
         <div class="mr-3">Privacy Policy</div>
         <div>Terms of Service</div>

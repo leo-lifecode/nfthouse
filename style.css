@@ -1,8 +1,8 @@
 * {
-  margin     : 0;
-  padding    : 0;
-  box-sizing : border-box;
-  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .active {
@@ -14,71 +14,93 @@
 }
 
 .swiper-slide {
-  position       : relative;
-  text-align     : center;
-  display        : flex;
+  position: relative;
+  text-align: center;
+  display: flex;
   justify-content: center;
-  align-items    : center;
+  align-items: center;
 }
 
 .text {
-  position       : absolute;
-  z-index        : 999;
-  display        : flex;
+  position: absolute;
+  z-index: 999;
+  display: flex;
   justify-content: center;
-  align-items    : center;
-  width          : 100%;
-  height         : 100%;
-  margin         : auto;
-
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 
 .text-background {
-  background             : #823EAF;
-  background             : linear-gradient(to bottom, #823EAF 0%, #D279F5 100%);
+  background: #823eaf;
+  background: linear-gradient(to bottom, #823eaf 0%, #d279f5 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .glasses {
-  background                : rgb(255, 255, 255);
-  background                : linear-gradient(295deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 98%);
-  border-radius             : 40px;
-  box-shadow                : 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter           : blur(12.3px);
-  -webkit-backdrop-filter   : blur(12.3px);
-  border                    : 1px solid rgba(255, 255, 255, 0.25);
-  /* -webkit-text-fill-color: transparent; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    295deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 98%
+  );
+  border-radius: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.3px);
+  -webkit-backdrop-filter: blur(12.3px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+button.glasses:hover {
+  background-color: #2f064965;
 }
 
 .glasses-view {
-  background             : rgb(255, 255, 255);
-  background             : linear-gradient(0deg, rgba(255, 255, 255, 0.3) 100%, rgba(255, 255, 255, 1) 100%);
-  backdrop-filter        : blur(16.5px);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.3) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  backdrop-filter: blur(16.5px);
   -webkit-backdrop-filter: blur(16.5px);
-  border                 : 1px solid rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+button.glasses-view:hover {
+  background-color: #c4c2c565;
+  transition: 200ms;
 }
 
 .swiper-slide img {
-  display            : flex;
-  justify-content    : center;
-  align-items        : center;
-  width              : 100%;
-  margin             : auto;
-  height             : 100%;
-  object-fit         : cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  object-fit: cover;
   background-position: center;
 }
 
 .background-auction {
   background: rgb(51, 26, 72);
-  background: linear-gradient(180deg, rgba(51, 26, 72, 1) 0%, rgba(1, 0, 1, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(51, 26, 72, 1) 0%,
+    rgba(1, 0, 1, 1) 100%
+  );
 }
 
 .glasses-auction2 {
-  background             : rgb(40, 40, 40);
-  background             : linear-gradient(157deg, rgba(40, 40, 40, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
-  backdrop-filter        : blur(14.4px);
+  background: rgb(40, 40, 40);
+  background: linear-gradient(
+    157deg,
+    rgba(40, 40, 40, 0.8) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  backdrop-filter: blur(14.4px);
   -webkit-backdrop-filter: blur(14.4px);
-
 }
